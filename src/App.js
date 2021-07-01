@@ -5,11 +5,17 @@ const App = () => {
     <div>
       <h1>Minha primeira aplicação com React</h1>
       <ul>
-        <Item />
-        <Item />
-        <Item />
+        <Item>
+          Item 1
+        </Item>
+        <Item>
+          Item 2
+        </Item>
+        <Item>
+          Item 3
+        </Item>
       </ul>
-    </div>    
+    </div>
   )
 }
 
